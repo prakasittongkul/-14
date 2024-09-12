@@ -1,2 +1,56 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+:root {
+	--ion-color-darkgreen: #064635;
+	--ion-color-darkgreen-rgb: 6,70,53;
+	--ion-color-darkgreen-contrast: #ffffff;
+	--ion-color-darkgreen-contrast-rgb: 255,255,255;
+	--ion-color-darkgreen-shade: #053e2f;
+	--ion-color-darkgreen-tint: #1f5949;
+}
+
+.ion-color-darkgreen {
+	--ion-color-base: var(--ion-color-darkgreen);
+	--ion-color-base-rgb: var(--ion-color-darkgreen-rgb);
+	--ion-color-contrast: var(--ion-color-darkgreen-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-darkgreen-contrast-rgb);
+	--ion-color-shade: var(--ion-color-darkgreen-shade);
+	--ion-color-tint: var(--ion-color-darkgreen-tint);
+}
+
+:root {
+	--ion-color-pink: #e0c5e7;
+	--ion-color-pink-rgb: 224,197,231;
+	--ion-color-pink-contrast: #000000;
+	--ion-color-pink-contrast-rgb: 0,0,0;
+	--ion-color-pink-shade: #c5adcb;
+	--ion-color-pink-tint: #e3cbe9;
+}
+
+.ion-color-pink {
+	--ion-color-base: var(--ion-color-pink);
+	--ion-color-base-rgb: var(--ion-color-pink-rgb);
+	--ion-color-contrast: var(--ion-color-pink-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pink-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pink-shade);
+	--ion-color-tint: var(--ion-color-pink-tint);
+}
+
+:root {
+	--ion-color-yellow: #F0BB62;
+	--ion-color-yellow-rgb: 240,187,98;
+	--ion-color-yellow-contrast: #000000;
+	--ion-color-yellow-contrast-rgb: 0,0,0;
+	--ion-color-yellow-shade: #d3a556;
+	--ion-color-yellow-tint: #f2c272;
+}
+
+.ion-color-yellow {
+	--ion-color-base: var(--ion-color-yellow);
+	--ion-color-base-rgb: var(--ion-color-yellow-rgb);
+	--ion-color-contrast: var(--ion-color-yellow-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-yellow-contrast-rgb);
+	--ion-color-shade: var(--ion-color-yellow-shade);
+	--ion-color-tint: var(--ion-color-yellow-tint);
+}
